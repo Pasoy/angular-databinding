@@ -1,14 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/scss/bootstrap';
 
-.container {
-  margin-top: 30px;
-}
+$elegant-color: #222222;
+$elegant-color-dark: #181818;
 
-p {
-  color: blue;
+body {
+  color: #EEEEEE;
+  background-color: $elegant-color;
 }
 
 .btn {
   margin-right: 5px;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.card-header {
+  color: $elegant-color;
 }
